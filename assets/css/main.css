@@ -3013,14 +3013,14 @@ color: #212529;
  
 }
 .bgg{
-  background-image: url(../img/contact\ bg\ \(2\).jpg);
+  background-image: url(../img/pastor\ familt.jpg);
   background-size: cover;
-  height: 500px;
+  height: 550px;
 }
 
 @media only screen and (max-width: 768px) {
   .bgg{
-    background-image: url(../img/contact\ bg\ \(2\).jpg);
+    background-image: url(../img/pastor\ familt.jpg);
     background-size: cover;
     height: 300px
   }
