@@ -3015,3 +3015,12 @@ color: #212529;
   background-size: cover;
   height: 500px;
 }
+
+@media only screen and (max-width: 768px) {
+  .bgg{
+    background-image: url(../img/pastor\ familt.jpg);
+    background-size: cover;
+    height: 250px
+  }
+ 
+}
