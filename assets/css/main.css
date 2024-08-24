@@ -3006,6 +3006,11 @@ color: #212529;
   color: white;
 }
 .bg{
+  background-image: url(../img/dark\ bg.jpg);
+  background-size: cover;
+ 
+}
+.bgg{
   background-image: url(../img/pastor\ familt.jpg);
   background-size: cover;
   height: 500px;
