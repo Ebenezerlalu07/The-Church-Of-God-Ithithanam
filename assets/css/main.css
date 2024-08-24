@@ -2884,8 +2884,6 @@ section,
 
 
 
-
-
 .video-background {
   position: absolute;
   top: 0;
@@ -2946,4 +2944,10 @@ html {
 }
 .mail{
   color: white;
+}
+
+
+
+.imgg {
+  position: static;
 }
