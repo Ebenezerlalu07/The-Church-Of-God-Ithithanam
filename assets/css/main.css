@@ -3126,7 +3126,8 @@ footer p {
 }
 .paragraph{
   color: #212529;
-  justify-content: left;
+  text-align: justify;
+  justify-items: auto;
 }
 
 
