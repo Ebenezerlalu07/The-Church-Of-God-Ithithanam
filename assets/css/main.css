@@ -81,9 +81,10 @@ body {
 @font-face {
   font-family: 'SFUIDisplay';
   src: url('path/to/SFUIDisplay-Medium.woff2') format('woff2'),
-       url('path/to/SFUIDisplay-Medium.woff') format('woff'),
-       url('path/to/SFUIDisplay-Medium.ttf') format('truetype');
-  font-weight: 500; /* Medium weight */
+    url('path/to/SFUIDisplay-Medium.woff') format('woff'),
+    url('path/to/SFUIDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  /* Medium weight */
   font-style: normal;
 }
 
@@ -100,13 +101,18 @@ a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
-p{
+
+p {
   font-family: 'SFUIDisplay', sans-serif;
   text-justify: auto;
 }
-span{
+
+span {
   font-family: 'SFUIDisplay', sans-serif;
   text-justify: auto;
+  display: inline-block;
+  
+  text-align: justify;
 }
 
 h1,
@@ -236,7 +242,7 @@ h6 {
   .header .navmenu {
     order: 3;
   }
-  
+
 }
 
 .scrolled .header {
@@ -2956,14 +2962,16 @@ html {
   background-size: cover;
 } */
 
-.color{
+.color {
   color: white;
 }
-.mail{
+
+.mail {
   color: white;
 }
-.yt{
-color: #212529;
+
+.yt {
+  color: #212529;
 }
 
 
@@ -2979,6 +2987,7 @@ color: #212529;
   order: 2;
   z-index: 5;
 }
+
 .banner-image img {
   clip-path: polygon(30% 0, 100% 0%, 100% 100%, 30% 100%, 5% 50%);
 }
@@ -2987,6 +2996,7 @@ color: #212529;
   .banner-image img {
     clip-path: none;
   }
+
   .body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
@@ -3014,9 +3024,11 @@ color: #212529;
   .banner-image {
     order: 1;
   }
+
   .banner-arrow {
     order: 2;
   }
+
   .body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
@@ -3026,51 +3038,58 @@ color: #212529;
   .banner-arrow-text {
     bottom: 1rem;
   }
+
   .body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
 
-.heading{
+.heading {
   color: white;
 }
-.bg{
+
+.bg {
   background-image: url(../img/dark\ bg.jpg);
   background-size: cover;
- 
+
 }
-.bgg{
+
+.bgg {
   background-image: url(../img/pastor\ familt.jpg);
   background-size: cover;
   height: 550px;
 }
 
 @media only screen and (max-width: 768px) {
-  .bgg{
+  .bgg {
     background-image: url(../img/pastor\ familt.jpg);
     background-size: cover;
     height: 300px
   }
+
   .body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
- 
+
 }
-.black{
+
+.black {
   color: #212529;
 }
-.bggg{
+
+.bggg {
   background-image: url(../img/about.jpg);
   background-size: cover;
   height: 550px;
 }
 
 @media only screen and (max-width: 768px) {
-  .bggg{
+  .bggg {
     background-image: url(../img/about.jpg);
     background-size: cover;
     height: 300px
   }
+
   .body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
@@ -3088,11 +3107,13 @@ color: #212529;
   margin-bottom: 0;
   background-color: #fff;
 }
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
+
   .body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
@@ -3119,22 +3140,28 @@ footer p {
   margin-bottom: .25rem;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
 
 .kallumala {
   width: 30%;
 }
-.paragraph{
+
+.paragraph {
   color: #212529;
   text-align: justify;
   justify-items: auto;
+  display: inline-block;
+  width: 100%;
+  text-align: justify;
 }
 
 
 /*
  CSS for the main interaction
 */
-.tabset > input[type="radio"] {
+.tabset>input[type="radio"] {
   position: absolute;
   left: -200vw;
 }
@@ -3143,12 +3170,12 @@ footer p {
   display: none;
 }
 
-.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
-.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
-.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
-.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
-.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
-.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+.tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child,
+.tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2),
+.tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3),
+.tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4),
+.tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5),
+.tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6) {
   display: block;
 }
 
@@ -3161,7 +3188,7 @@ body {
   font-weight: 300;
 }
 
-.tabset > label {
+.tabset>label {
   position: relative;
   display: inline-block;
   padding: 15px 15px 25px;
@@ -3171,7 +3198,7 @@ body {
   font-weight: 600;
 }
 
-.tabset > label::after {
+.tabset>label::after {
   content: "";
   position: absolute;
   left: 15px;
@@ -3181,24 +3208,24 @@ body {
   background: #8d8d8d;
 }
 
-input:focus-visible + label {
-  outline: 2px solid rgba(0,102,204,1);
+input:focus-visible+label {
+  outline: 2px solid rgba(0, 102, 204, 1);
   border-radius: 3px;
 }
 
-.tabset > label:hover,
-.tabset > input:focus + label,
-.tabset > input:checked + label {
+.tabset>label:hover,
+.tabset>input:focus+label,
+.tabset>input:checked+label {
   color: #06c;
 }
 
-.tabset > label:hover::after,
-.tabset > input:focus + label::after,
-.tabset > input:checked + label::after {
+.tabset>label:hover::after,
+.tabset>input:focus+label::after,
+.tabset>input:checked+label::after {
   background: #06c;
 }
 
-.tabset > input:checked + label {
+.tabset>input:checked+label {
   border-color: #ccc;
   border-bottom: 1px solid #fff;
   margin-bottom: -1px;
@@ -3227,14 +3254,15 @@ input:focus-visible + label {
 .nav-item {
   color: #06c;
 }
-b{
+
+b {
   font-weight: bold;
 }
-.text{
+
+.text {
   font-weight: bolder;
 }
 
 .white {
   color: white;
 }
-
