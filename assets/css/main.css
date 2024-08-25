@@ -236,6 +236,7 @@ h6 {
   .header .navmenu {
     order: 3;
   }
+  
 }
 
 .scrolled .header {
@@ -2986,6 +2987,9 @@ color: #212529;
   .banner-image img {
     clip-path: none;
   }
+  .body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
 }
 
 .banner-arrow {
@@ -3013,11 +3017,17 @@ color: #212529;
   .banner-arrow {
     order: 2;
   }
+  .body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .banner-arrow-text {
     bottom: 1rem;
+  }
+  .body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
 
@@ -3041,6 +3051,9 @@ color: #212529;
     background-size: cover;
     height: 300px
   }
+  .body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
  
 }
 .black{
@@ -3057,6 +3070,9 @@ color: #212529;
     background-image: url(../img/about.jpg);
     background-size: cover;
     height: 300px
+  }
+  .body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
 
@@ -3076,6 +3092,9 @@ color: #212529;
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+  .body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
 
