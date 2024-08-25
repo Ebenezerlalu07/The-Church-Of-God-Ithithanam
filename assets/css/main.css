@@ -104,14 +104,13 @@ a:hover {
 
 p {
   font-family: 'SFUIDisplay', sans-serif;
-  text-justify: auto;
+
 }
 
 span {
   font-family: 'SFUIDisplay', sans-serif;
   text-justify: auto;
   display: inline-block;
-  
   text-align: justify;
 }
 
@@ -3153,7 +3152,6 @@ footer p {
   text-align: justify;
   justify-items: auto;
   display: inline-block;
-  width: 100%;
   text-align: justify;
 }
 
