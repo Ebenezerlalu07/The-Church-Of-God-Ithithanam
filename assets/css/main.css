@@ -75,7 +75,16 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: var(--default-font);
+  font-family: 'SFUIDisplay', sans-serif;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  src: url('path/to/SFUIDisplay-Medium.woff2') format('woff2'),
+       url('path/to/SFUIDisplay-Medium.woff') format('woff'),
+       url('path/to/SFUIDisplay-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
 }
 
 a {
@@ -90,6 +99,14 @@ a {
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
+}
+p{
+  font-family: 'SFUIDisplay', sans-serif;
+  text-justify: auto;
+}
+span{
+  font-family: 'SFUIDisplay', sans-serif;
+  text-justify: auto;
 }
 
 h1,
@@ -3189,4 +3206,14 @@ input:focus-visible + label {
 
 .nav-item {
   color: #06c;
+}
+b{
+  font-weight: bold;
+}
+.text{
+  font-weight: bolder;
+}
+
+.white {
+  color: white;
 }
