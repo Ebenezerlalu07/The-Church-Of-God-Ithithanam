@@ -111,7 +111,7 @@ span {
   font-family: 'SFUIDisplay', sans-serif;
   text-justify: auto;
   display: inline-block;
-  text-align: justify;
+
 }
 
 h1,
@@ -240,6 +240,9 @@ h6 {
 
   .header .navmenu {
     order: 3;
+  }
+  .center{
+    text-align: center;
   }
 
 }
@@ -2972,6 +2975,9 @@ html {
 .yt {
   color: #212529;
 }
+.ytlogo{
+  width: 100px;
+}
 
 
 
@@ -3059,6 +3065,7 @@ html {
   height: 550px;
 }
 
+
 @media only screen and (max-width: 768px) {
   .bgg {
     background-image: url(../img/pastor\ familt.jpg);
@@ -3144,7 +3151,7 @@ footer p {
 }
 
 .kallumala {
-  width: 30%;
+  width: 20%;
 }
 
 .paragraph {
