@@ -3064,6 +3064,11 @@ html {
   background-size: cover;
   height: 550px;
 }
+.bgggg {
+  background-image: url(../img/Service.jpg);
+  background-size: cover;
+  height: 550px;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -3271,3 +3276,12 @@ b {
 .white {
   color: white;
 }
+
+
+
+
+
+
+
+
+
