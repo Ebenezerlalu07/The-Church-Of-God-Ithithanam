@@ -3280,7 +3280,11 @@ b {
 
 
 
-
+.png{
+  background-image: url(../img/nice-blue-white-background-backdrop-purpose.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
